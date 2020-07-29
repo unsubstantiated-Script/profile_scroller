@@ -47,7 +47,7 @@ function nextProfile() {
             <li class="list-group-item">Age: ${currentProfile.age}</li>
             <li class="list-group-item">Gender: ${currentProfile.gender}</li>
             <li class="list-group-item">Location: ${currentProfile.location}</li>
-            <li class="list-group-item">Preference: ${currentProfile.gender} looking for ${currentProfile.gender} </li>
+            <li class="list-group-item">Preference: ${currentProfile.gender} looking for ${currentProfile.lookingfor} </li>
             </ul>`
 
         document.getElementById('imageDisplay').innerHTML = `<img src="${currentProfile.image}">`;
